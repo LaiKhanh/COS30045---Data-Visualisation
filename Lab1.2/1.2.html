@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8"/>
+	<meta name="description"	content="Data Visualisation Exercise 1"/>
+	<meta name="keywords"		  content="HTML, CSS"/>
+	<meta name="author"			  content="Your name here"/>
+
+	<title>Task 1.1 HTML and CSS Demo Page</title>
+	<!--Insert description of exercise  -->
+
+	<style>
+		h1 {
+			color: #3366cc; 
+			font-size: 28px;
+			font-weight: bold;
+			font-family: 'Arial', sans-serif;
+			margin-bottom: 10px;
+		}
+	
+		h2 {
+			color: #009900; 
+			font-size: 20px; 
+			font-weight: normal;
+			margin-bottom: 8px;
+		}
+	
+		em {
+			font-style: italic;
+			display: block;
+			margin-top: 8px; 
+		}
+	
+		img {
+			max-width: 100%; 
+			height: auto; 
+		}
+	
+		footer {
+			font-size: 14px; 
+			color: #666666; 
+			margin-top: 20px;
+		}
+	</style>
+	
+
+</head>
+
+<body>
+
+	<h1>Title of Article about Interesting Visualisation</h1>
+	<h2>Author of Interesting Article</h2>
+
+	<p>
+	Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur agni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+	</p>
+
+	<ul>
+		<li>Lorem ipsum dolor sit.</li>
+		<li>Nulla facilisi. Curabitur scelerisque.</li>
+		<li>Donec ac tristique ipsum.</li>
+		<li>Pellentesque vitae nulla.</li>
+	  </ul>  
+	
+	  <button id="show2019">2019</button>
+	  <button id="show2021">2021</button>
+	  <button id="showBoth">Both</button>
+	  
+	  <img id="image2019" src="2019.png" style="display: none;">
+	  <img id="image2021" src="2021.png" style="display: none;">
+	  <img id="imageBoth" src="both.png" style="display: none;">
+	  
+	  <p id="caption2019" style="display: none;"><em>Fig 1.Percent of  most popular pets owned Bby Australians in 2019</em></p>
+	  <p id="caption2021" style="display: none;"><em>Fig 2.Percent of  most popular pets owned Bby Australians in 2021</em></p>
+	  <p id="captionBoth" style="display: none;"><em>Fig 3.Percent of  most popular pets owned Bby Australians in 2019 and 2021</em></p>
+	  
+	  <script>
+		  const buttons = {
+			  'show2019': { image: 'image2019', caption: 'caption2019' },
+			  'show2021': { image: 'image2021', caption: 'caption2021' },
+			  'showBoth': { image: 'imageBoth', caption: 'captionBoth' }
+		  };
+	  
+		  Object.keys(buttons).forEach(buttonId => {
+			  const button = document.getElementById(buttonId);
+			  const imageId = buttons[buttonId].image;
+			  const captionId = buttons[buttonId].caption;
+			  const myImage = document.getElementById(imageId);
+			  const myCaption = document.getElementById(captionId);
+	  
+			  button.addEventListener("click", () => {
+				  // Toggle the visibility of the selected image
+				  myImage.style.display = (myImage.style.display === "none") ? "block" : "none";
+	  
+				  // Toggle the visibility of the caption
+				  myCaption.style.display = (myCaption.style.display === "none") ? "block" : "none";
+	  
+				  // Hide other images and captions
+				  Object.values(buttons).forEach(btn => {
+					  if (btn.image !== imageId) {
+						  document.getElementById(btn.image).style.display = "none";
+						  document.getElementById(btn.caption).style.display = "none";
+					  }
+				  });
+			  });
+		  });
+	  </script>
+	  
+
+
+	<p>﻿Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
+	<footer>COS30045 Data Visualisation</footer>
+	<footer>Semester 1 2022</footer>
+
+</body>
+</html>
