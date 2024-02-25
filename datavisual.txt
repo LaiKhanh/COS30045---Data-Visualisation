@@ -1,0 +1,2 @@
+chart 1: Bar chart - migration number per country - data1.csv
+chart 2: Stacked Area chart - Forced Migration (refugee 1962 - 2023) - https://www.unhcr.org/refugee-statistics/insights/explainers/forcibly-displaced-flow-data.html
