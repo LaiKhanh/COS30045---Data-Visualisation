@@ -1,0 +1,119 @@
+body {
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100%;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.intro {
+    text-align: justify;
+    padding: 0 150px;
+    margin: 40px 0;
+}
+
+.intro p{
+    font-size: 20px;
+}
+
+.visual1, .visual2, .visual3,
+.visual4, .visual5, .visual6,
+.visual7, .visual8, .visual9
+{
+    text-align: center;
+    margin: 20px 0;
+    padding: 25px;
+    background-color: #f4f4f4;
+}
+
+.visual1 p, .visual2 p, .visual3 p,
+.visual4 p, .visual5 p, .visual6 p,
+.visual7 p, .visual8 p, .visual9 p {
+    margin: 10px 0;
+    padding: 0;
+}
+
+button {
+    padding: 10px 45px;
+    margin: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.container{
+    min-height: 90vh;
+    overflow: hidden;
+    display: block;
+    position: relative;
+    padding-bottom: 100px;
+    width: 100%; 
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+/* .tooltip, .tooltip1, .tooltip2,
+.tooltip3, .tooltip4, .tooltip5,
+.tooltip6, .tooltip7, .tooltip8 */
+.tooltip1, .tooltip2,
+.tooltip3, .tooltip4, .tooltip5,
+.tooltip6, .tooltip7, .tooltip8
+{
+    position: absolute;
+    background-color: white;
+    padding: 5px;
+    border: 1px solid #ddd;
+    pointer-events: none;
+    opacity: 0;
+}
+
+.bubble {
+    fill-opacity: 0.7;
+}
+
+.bubble:hover {
+    fill-opacity: 1;
+}
+
+.tooltip {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    pointer-events: none;
+    display: none;
+}
+
+.horizontal-grid line {
+    stroke: rgb(193, 191, 191); /* Color of the grid lines */
+    opacity: 0.9;
+    stroke-width: 1px;
+}
+
+.venetrend, .ukrtrend{
+    padding-top: 100px;
+}

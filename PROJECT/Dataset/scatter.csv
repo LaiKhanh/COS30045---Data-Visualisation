@@ -1,0 +1,59 @@
+Id,Year,Region,Count,Distance
+1,2010,Asia and the Pacific,52,5500
+2,2011,Asia and the Pacific,46,5500
+3,2012,Asia and the Pacific,42,5500
+4,2013,Asia and the Pacific,34,5500
+5,2014,Asia and the Pacific,138,5500
+6,2015,Asia and the Pacific,190,5500
+7,2016,Asia and the Pacific,152,5500
+8,2017,Asia and the Pacific,172,5500
+9,2018,Asia and the Pacific,214,5500
+10,2019,Asia and the Pacific,252,5500
+11,2020,Asia and the Pacific,191,5500
+12,2021,Asia and the Pacific,178,5500
+13,2022,Asia and the Pacific,4772,5500
+14,2023,Asia and the Pacific,4671,5500
+15,2010,Europe,22515,580
+16,2011,Europe,22702,580
+17,2012,Europe,22765,580
+18,2013,Europe,3017,580
+19,2014,Europe,247496,580
+20,2015,Europe,336311,580
+21,2016,Europe,257339,580
+22,2017,Europe,154192,580
+23,2018,Europe,105165,580
+24,2019,Europe,70189,580
+25,2020,Europe,41914,580
+26,2021,Europe,30473,580
+27,2022,Europe,5621986,580
+28,2023,Europe,5800444,580
+33,2014,ME and North Africa,10,3500
+34,2015,ME and North Africa,30,3500
+35,2016,ME and North Africa,6834,3500
+36,2017,ME and North Africa,11534,3500
+37,2018,ME and North Africa,7885,3500
+38,2019,ME and North Africa,5080,3500
+39,2020,ME and North Africa,1844,3500
+40,2021,ME and North Africa,558,3500
+41,2022,ME and North Africa,449,3500
+42,2023,ME and North Africa,405,3500
+47,2014,South Africa,13,8200
+48,2015,South Africa,21,8200
+49,2016,South Africa,14,8200
+52,2019,South Africa,5,8200
+53,2020,South Africa,5,8200
+54,2021,South Africa,5,8200
+57,2010,The Americas,3785,7300
+58,2011,The Americas,3663,7300
+59,2012,The Americas,3650,7300
+60,2013,The Americas,3734,7300
+61,2014,The Americas,5045,7300
+62,2015,The Americas,7192,7300
+63,2016,The Americas,9356,7300
+64,2017,The Americas,11348,7300
+65,2018,The Americas,11944,7300
+66,2019,The Americas,12299,7300
+67,2020,The Americas,12601,7300
+68,2021,The Americas,15747,7300
+69,2022,The Americas,91567,7300
+70,2023,The Americas,97077,7300
